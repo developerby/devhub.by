@@ -5,7 +5,7 @@ development: &db
   reconnect: false
   database: devhub_development
   pool: 5
-  username: root
+  username: travis
   host: localhost
 
 test:

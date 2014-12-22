@@ -2,4 +2,8 @@ language: ruby
 rvm:
   - 2.1.5
 before_script:
+  - cp config/database.travis.yml config/database.yml
   - mysql -e 'create database devhub_test;'
+  - bundle exec rake db:migrate
+script:
+  - RAILS_ENV=test bundle exec bin/rspec
