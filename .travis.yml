@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+  - 2.1.5
+before_script:
+  - mysql -e 'create database devhub_test;'
