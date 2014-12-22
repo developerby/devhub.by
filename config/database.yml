@@ -1,0 +1,17 @@
+development: &db
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: devhub_development
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+test:
+  <<: *db
+  database: devhub_test
+
+production:
+  <<: *db
+  database: devhub_production
