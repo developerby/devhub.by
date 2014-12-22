@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/developerby/devhub.by.svg?branch=master)](https://travis-ci.org/developerby/devhub.by)
+{<img src="https://travis-ci.org/developerby/devhub.by.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/developerby/devhub.by]
