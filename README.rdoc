@@ -1,1 +1,2 @@
 {<img src="https://travis-ci.org/developerby/devhub.by.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/developerby/devhub.by]
+{<img src="https://codeclimate.com/github/developerby/devhub.by/badges/gpa.svg" />}[https://codeclimate.com/github/developerby/devhub.by]
